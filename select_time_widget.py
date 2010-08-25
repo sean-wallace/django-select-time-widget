@@ -1,9 +1,8 @@
 import re
-from django.forms.extras.widgets import SelectDateWidget
-from django.forms.widgets import Widget, Select, MultiWidget
+from django.forms.widgets import Widget, Select
 from django.utils.safestring import mark_safe
 
-__all__ = ('SelectTimeWidget', 'SplitSelectDateTimeWidget')
+__all__ = ('SelectTimeWidget',)
 
 # Attempt to match many time formats:
 # Example: "12:34:56 P.M."  matches:
